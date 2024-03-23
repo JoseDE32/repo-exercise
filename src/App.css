@@ -1,0 +1,107 @@
+.App {
+  background: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+#navBar {
+  display: flex;
+  justify-content: space-between; /* Para distribuir los elementos a lo largo del contenedor */
+  align-items: center; /* Para alinear verticalmente los elementos */
+  background-color: rgb(73, 94, 87);
+  padding: 10px 20px; /* Ajusta el espacio interior según sea necesario */
+}
+
+.navbar-links {
+  display: flex; /* Para que los enlaces se muestren en línea */
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Otros estilos según sea necesario */
+
+.reservation-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(244, 229, 214);
+}
+
+.reservation-form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form h2 {
+  margin-bottom: 20px;
+}
+
+.reservation-form .form-group {
+  margin-bottom: 15px;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.reservation-form input[type="number"],
+.reservation-form input[type="date"],
+.reservation-form input[type="time"],
+.reservation-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.reservation-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reservation-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
